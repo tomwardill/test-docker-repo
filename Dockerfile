@@ -1,5 +1,4 @@
-FROM registry.lxd/ubuntu:latest
+FROM scratch
 MAINTAINER Tom Wardill "tom.wardill@canonical.com"
 
-RUN apt-get update
-RUN apt-get install -y wget
+COPY . /
