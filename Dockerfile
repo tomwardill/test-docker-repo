@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM public.ecr.aws/ubuntu/ubuntu:latest
 MAINTAINER Tom Wardill "tom.wardill@canonical.com"
 
 RUN apt-get update
